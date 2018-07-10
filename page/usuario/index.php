@@ -90,7 +90,7 @@
         
         <!-- Main jumbotron for a primary marketing message or call to action -->
         <div class="jumbotron">
-          <h1>da uma pegada</h1>
+          <h1>Usuarios</h1>
           <p>da clinca</p>
         </div>
         
