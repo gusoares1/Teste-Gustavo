@@ -12,7 +12,7 @@ abstract class ConDB{
       
         return
         is_null(self::$cnx)?
-                self::$cnx =  new PDO("mysql:host = http://vagaestagiogustavo-com-br.umbler.net;dbname=estagio","root",""): 
+                self::$cnx =  new PDO("mysql:host = mysql524.umbler.com;dbname=vagaestagiomazza","goten","gu123456"): 
                 self::$cnx;
        
     }
