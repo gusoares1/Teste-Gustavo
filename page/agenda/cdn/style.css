@@ -1,0 +1,107 @@
+#dvBase{
+    background: #f1f1f1;
+    /*width: 1007px;*/
+    height: 100%;
+    margin: 0 auto;
+}
+
+/*JANELA MODAL*/
+.modal{
+    display: none;
+    position: fixed;
+    width: 45%;
+    top: 15%;
+    left: 25%;
+    height: 55%;
+    box-sizing: border-box;
+    padding: 20px 50px;
+    border: solid 1px #CCC;
+    background-color: #f0f0f0;
+    box-shadow:  1px 1px 100px #555;
+    -webkit-border-radius: 20px;   
+}
+
+.modal-fechar{
+    position: absolute;
+    box-sizing: border-box;
+    padding: 10px;
+    right: 5px;
+    padding: 5px 10px;
+    top: 5px;
+    border: 1px solid #29447e;
+    cursor: pointer;
+    background-color: #990000;
+    color: #fff;
+    font-weight: bolder;
+}
+.modal-fechar:hover{
+    transition: 0.2s;
+    background-color: #bf3a3a;
+    -webkit-border-bottom-left-radius: 20px;
+}
+.modal-txt{
+    font-family: sans-serif;
+    font-size: 0.95em;
+    line-height: 25px;
+    color: #222;
+}
+.modal-salvar{
+    padding: 5px 10px;
+    top: 5px;
+    border: 1px solid #29447e;
+    float: left;
+    cursor: pointer;
+    right: 0;
+    background-color: #5C74A9;
+    color: #fff;
+    font-weight: bolder;
+   }
+.modal-salvar:hover{
+    transition: 0.2s;
+    background-color: #8dd457;
+}
+
+.modal-input{
+    top: 5px;
+    right: 20px;
+    -webkit-border-radius: 10px;
+    }
+    
+.mensagem {
+       float: right;
+       width: 475px;
+    }    
+
+/*LINKS*/
+.links{}
+.link-tu-cadastrar{
+    padding: 5px 10px;
+    top: 5px;
+    border: 1px solid #29447e;
+    float: left;
+    cursor: pointer;
+    right: 0;
+    background-color: #5C74A9;
+    color: #fff;
+    font-weight: bolder;
+    }
+.link-tu-voltar{
+    padding: 5px 10px;
+    top: 5px;
+    border: 1px solid #29447e;
+    float: right;
+    cursor: pointer;
+    right: 0;
+    background-color: #5C74A9;
+    color: #fff;
+    font-weight: bolder;
+   }
+
+.link-tu:hover{
+    transition: 0.2s;
+    background-color: #0066cc;
+}
+.title{
+    font-size: 35px;
+   
+}
