@@ -67,7 +67,6 @@
 
     <div class="container theme-showcase" role="main">
         
-        
         <div class="page-header">
       </div>
       <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
